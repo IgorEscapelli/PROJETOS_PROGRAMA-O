@@ -1,0 +1,19 @@
+tr { 
+  color: rgb(3, 3, 3);
+}
+body {
+  /* Background pattern from Toptal Subtle Patterns */
+  height: 400px;
+  width: 100%;
+  background-image: url("./images/fundo-branco-abstrato_23-2148810113.png");
+}
+input[type=button],
+    input[type=submit] {
+      background-color: #000000;
+      border: none;
+      color: #fff;
+      padding: 15px 30px;
+      text-decoration: none;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
