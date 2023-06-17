@@ -1,0 +1,93 @@
+/*estilo do html por completo */
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;700&display=swap');
+html{
+    font-family: Libre_Franklin;
+    display:flex;
+    justify-content: center;
+    align-items: auto;
+    font-family: 'Libre Franklin', sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  color: #333;
+  text-align: center;
+}
+h1{
+    font-size: 50px;
+}
+.container{
+    margin-top: 35%;
+}
+input
+{padding:3px; 
+border-radius:25px; 
+border:3px solid #000000; 
+width: 50%; 
+margin-bottom: 10px; 
+font-size: medium;}
+input[type="number"]:focus{border-color: #000000;}
+
+/*estilo de botão de euro para real e conversão */
+
+.conversionwrapper{width:80%; margin:0 auto;}
+.convertbutton{text-align:center; 
+    margin:10px auto 0; 
+    text-transform:uppercase; 
+    color: #ffff; 
+    background-color: rgb(0, 0, 0);};
+
+    .convertbutton:haver {
+    background-color: rgb(2, 2, 2); 
+    border-color: black;}
+
+    .conversionWrapper {
+        text-align: center;
+      }
+      
+      .inputWrapper {
+        display: inline-block;
+        margin-right: 10px;
+      }
+      
+      .inputWrapper input {
+        width: 100px;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+      }
+      
+      .convertbutton {
+        display: block;
+        margin: 10px auto;
+        padding: 10px 20px;
+        background-color: #4caf50;
+        color: #fff;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+
+      .image-container {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+      }
+      
+      .image-container img {
+        width: 400px; 
+        height: auto;
+      }
+  /* estilo do rodapé */         
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: #fff;
+    padding: 10px;
+  }
+  
+  footer a {
+    color: #333;
+    text-decoration: none;
+    margin-left: 10px;
+  }
